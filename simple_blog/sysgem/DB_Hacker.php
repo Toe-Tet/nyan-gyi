@@ -7,7 +7,6 @@ define("DB_NAME", "simple_blog");
 define("DB_USER", "root");
 define("DB_PASS","123@");
 
-
 function dbConnect(){
 	$db = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 	if(mysqli_connect_errno()) {

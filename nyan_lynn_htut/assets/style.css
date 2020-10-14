@@ -43,7 +43,7 @@ p {
 .wallpaper-container {
 	position: relative;
 	height:400px;
-	margin-top: 80px; 
+	margin-top: 55px; 
 }
 
 .wallpaper-image {
@@ -58,7 +58,7 @@ p {
 
 @media screen and (min-width: 992px) {
     .wallpaper-container{
-    	margin-top: 100px;
+    	margin-top: 80px;
     }
 }
 

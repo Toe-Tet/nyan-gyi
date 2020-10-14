@@ -1,0 +1,71 @@
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+.heading-title{
+	font-size: 45px;
+	padding: 20px;
+	margin: 0;
+}
+
+.bg-dark{
+	background-color: #1E1E1E !important;
+}
+
+.bg-lighter-dark{
+	background-color: #1E1E1E !important;
+}
+
+/*nav*/
+.bg-light-dark{
+ background-color: #323232 !important;
+}
+
+.navbar {
+	background-color: #292929 !important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+	.navbar{
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+}
+
+.nav-link{
+	color: white;
+	border-bottom: 3px solid #292929;
+}
+
+.nav-link:hover {
+	color: #6FEBA6 !important;
+	border-bottom: 3px solid #292929;
+}
+
+@media screen and (min-width: 992px) {
+	.nav-link:hover {
+		color: #6FEBA6 !important;
+		border-bottom: 3px solid #6FEBA6;
+	}
+}
+
+.stick {
+	color: white;
+	width: 30px;
+	height: 2px;
+	background-color: white;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 0px !important;
+}
+
+.card-header, .card-text, .card-footer, .card-title {
+	color: white;
+}
